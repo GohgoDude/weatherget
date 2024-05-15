@@ -1,0 +1,22 @@
+{
+	"currentCity": "Montreal",
+	"apiKey" : "YOUR_API_KEY_HERE",
+	
+	"cities":{
+		"Montreal":{
+			"lat": "45.5",
+			"lon": "-73.57",
+			"timezone": "America/New_York"
+		},
+		"Tokyo":{
+			"lat": "35.68",
+			"lon": "139.65",
+			"timezone": "Asia/Tokyo"
+		},
+		"Fukuoka":{
+			"lat": "33.59",
+			"lon": "130.40",
+			"timezone": "Asia/Tokyo"
+		}
+	}
+}
