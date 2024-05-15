@@ -1,3 +1,6 @@
+# What is weatherget?
+weatherget is a small Python script that generates two text files, if they don't exist already (current_weather.txt and current_time.txt) and continuously updates both with the time and weather of the specified place. This is useful as a livestreaming tool that can be self-hosted on your home PC.
+
 # How to use weathertimeget.py
 - Obtain free weather API key from https://home.openweathermap.org/users/sign_up
 - Add desired city's weather and time. You can do this by looking up on Google "city latitude and longitude"\
@@ -5,7 +8,6 @@ For example, "Montreal latitude and longitude". Copy these values into the lat a
 - You may add as many cities as you want, as long as you follow the format of the json file
 - Get timezone from pytz database https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 - Rename the value of currentCity to whatever defined city name you want to use under the key "cities"
-
 - Open runweathertime.bat, or write "py weathertimeget.py" in a command prompt within the directory containing weathertimeget.py
 
 # Features
