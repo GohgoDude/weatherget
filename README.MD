@@ -6,9 +6,9 @@ weatherget is a small Python script that generates two text files, if they don't
 - Install requests module using `pip install requests`
 - Install pytz module using `pip install pytz`
 - Obtain free weather API key from https://home.openweathermap.org/users/sign_up
-- Add desired city's weather. You can do this by finding your city's longitude (lon) and latitude (lat) in https://www.batchgeo.com/map/latitude-longitude\
+- Add desired city's weather. You can do this by finding your city's longitude (lon) and latitude (lat) in https://www.batchgeo.com/map/latitude-longitude \
 Copy these values into the lat and lon parameters of settings.json
-- Add desired city's time. You can do this by obtaining the timezone value from the pytz database https://en.wikipedia.org/wiki/List_of_tz_database_time_zones\
+- Add desired city's time. You can do this by obtaining the timezone value from the pytz database https://en.wikipedia.org/wiki/List_of_tz_database_time_zones \
 You may add as many cities as you want, as long as you follow the format of the json file
 - Rename the value of currentCity to whatever defined city name you want to use under the key "cities"
 - Open runweathertime.bat, or write "py weathertimeget.py" in a command prompt within the directory containing weathertimeget.py
